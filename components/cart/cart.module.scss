@@ -1,0 +1,42 @@
+@use "../../app/variables.module.scss" as v;
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: v.$spacing-x4;
+
+  @media (min-width: v.$screen-md) {
+    flex-direction: row;
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .link {
+      color: v.$yellow;
+
+      &:hover {
+        color: v.$yellow-light;
+      }
+    }
+  }
+
+  &__customerData {
+    flex: 2;
+
+    @media (min-width: v.$screen-md) {
+      border-right: 1px solid v.$grey-light;
+    }
+  }
+
+  &__summary {
+    margin-top: v.$spacing-x10;
+    flex: 1;
+
+    @media (min-width: v.$screen-md) {
+      margin-top: 0;
+    }
+  }
+}

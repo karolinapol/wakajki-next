@@ -1,0 +1,21 @@
+@use "../variables.module.scss" as v;
+
+.holidayCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.noHolidays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .link {
+    color: v.$yellow;
+
+    &:hover {
+      color: v.$yellow-light;
+    }
+  }
+}

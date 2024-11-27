@@ -1,0 +1,85 @@
+$spacing: 5px;
+
+@for $i from 1 through 100 {
+  .m#{$i} {
+    margin: $spacing * $i;
+  }
+
+  .mx#{$i} {
+    margin: $spacing * $i;
+  }
+
+  .my#{$i} {
+    margin: $spacing * $i 0;
+  }
+
+  .mt#{$i} {
+    margin-top: $spacing * $i;
+  }
+
+  .mr#{$i} {
+    margin-right: $spacing * $i;
+  }
+
+  .mb#{$i} {
+    margin-bottom: $spacing * $i;
+  }
+
+  .ml#{$i} {
+    margin-left: $spacing * $i;
+  }
+}
+
+@for $i from 1 through 20 {
+  .p#{$i} {
+    padding: $spacing * $i;
+  }
+
+  .px#{$i} {
+    padding: $spacing * $i;
+  }
+
+  .py#{$i} {
+    padding: $spacing * $i 0;
+  }
+
+  .pt#{$i} {
+    padding-top: $spacing * $i;
+  }
+
+  .pr#{$i} {
+    padding-right: $spacing * $i;
+  }
+
+  .pb#{$i} {
+    padding-bottom: $spacing * $i;
+  }
+
+  .pl#{$i} {
+    padding-left: $spacing * $i;
+  }
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.flex3 {
+  flex: 3;
+}
+
+.flex4 {
+  flex: 4;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}

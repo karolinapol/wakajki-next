@@ -1,0 +1,26 @@
+@use "../../app/variables.module" as v;
+@use "../../app/typography.module" as t;
+
+.logButton {
+  background-color: v.$white;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 3px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: t.$text-16;
+  font-family: Roboto;
+
+  &:hover {
+    border-bottom: 3px solid v.$yellow;
+  }
+}
+
+.logButtonIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: v.$spacing-x1;
+}

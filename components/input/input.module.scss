@@ -1,0 +1,47 @@
+@use "../../app/variables.module" as v;
+@use "../../app/typography.module" as t;
+
+.label {
+  font-size: t.$text-10;
+  display: inline-block;
+  margin-bottom: v.$spacing-x1;
+  opacity: v.$opacity-none;
+}
+
+.input {
+  background-color: v.$white;
+  border: 1px solid v.$grey;
+  border-radius: 5px;
+  font-size: t.$text-16;
+  font-family: inherit;
+  font-weight: 300;
+  display: block;
+  padding: v.$spacing-x2 v.$spacing-x3;
+  width: 100%;
+
+  &::placeholder {
+    color: v.$grey-dark;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: v.$yellow;
+  }
+
+  &:hover {
+    outline: none;
+    border-color: v.$yellow;
+  }
+
+  &Sm {
+    width: 150px;
+  }
+
+  &Md {
+    width: 230px;
+  }
+
+  &Lg {
+    width: 250px;
+  }
+}

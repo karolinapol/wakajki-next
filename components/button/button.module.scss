@@ -1,0 +1,67 @@
+@use "../../app/variables.module" as v;
+@use "../../app/typography.module" as t;
+
+.button {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: t.$text-16;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: v.$spacing-x2;
+
+  &:hover {
+    color: v.$white;
+  }
+
+  &Disabled {
+    color: v.$grey;
+    border: 2px solid v.$grey;
+    cursor: not-allowed;
+
+    &:hover {
+      border: 2px solid v.$grey;
+      color: v.$grey;
+    }
+  }
+
+  &Yellow {
+    border: 2px solid v.$yellow;
+    color: v.$white;
+    background: v.$yellow;
+
+    &:hover {
+      background-color: v.$yellow-light;
+      border-color: v.$yellow-light;
+    }
+  }
+
+  &Red {
+    border: 2px solid v.$red;
+    color: v.$white;
+    background: v.$red;
+
+    &:hover {
+      background-color: v.$red-light;
+      border-color: v.$red-light;
+    }
+  }
+
+  &Sm {
+    width: 100px;
+  }
+
+  &Md {
+    width: 150px;
+  }
+
+  &Lg {
+    width: 200px;
+  }
+
+  &Xl {
+    width: 250px;
+  }
+}

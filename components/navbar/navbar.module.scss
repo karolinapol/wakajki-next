@@ -1,0 +1,90 @@
+@use "../../app/variables.module" as v;
+@use "../../app/typography.module" as t;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: v.$white;
+  color: v.$black;
+  height: 60px;
+  font-size: t.$text-16;
+  z-index: 1;
+  border-bottom: 1px solid v.$grey-light;
+
+  @media (min-width: v.$screen-lg) {
+    height: 100px;
+  }
+
+  &__logo {
+    display: inline-block;
+    height: v.$logo-sm-y;
+    width: v.$logo-sm-x;
+    margin-right: v.$spacing-x2;
+
+    @media (min-width: v.$screen-lg) {
+      height: v.$logo-lg-y;
+      width: v.$logo-lg-x;
+      margin-right: v.$spacing-x4;
+    }
+  }
+
+  &__menuIcon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    &Right {
+      display: flex;
+    }
+
+    &Left {
+      display: flex;
+    }
+  }
+
+  &__item {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 3px;
+    transition: 0.2s;
+
+    &:hover {
+      border-bottom: 3px solid v.$yellow;
+    }
+
+    &Active {
+      font-weight: bold;
+    }
+
+    &WithIcon {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__itemIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: v.$spacing-x1;
+  }
+}
+
+.mobileMenu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: calc(100vh - 60px);
+
+  @media (min-width: v.$screen-lg) {
+    height: calc(100vh - 100px);
+  }
+}

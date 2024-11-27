@@ -1,0 +1,7 @@
+@use "../variables.module" as v;
+
+.holidayCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

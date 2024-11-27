@@ -1,0 +1,49 @@
+@use "../../app/variables.module" as v;
+@use "../../app/typography.module" as t;
+
+.inputWrapper {
+  margin-bottom: v.$spacing-x3;
+  display: block;
+
+  &Currency {
+    &::after {
+      content: " zł";
+    }
+  }
+}
+
+.label {
+  font-size: t.$text-14;
+  font-weight: 500;
+  display: block;
+  margin-bottom: v.$spacing-x1;
+  opacity: v.$opacity-none;
+}
+
+.input {
+  background-color: v.$white;
+  border: 1px solid v.$grey;
+  border-radius: 5px;
+  font-size: t.$text-14;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  padding: v.$spacing-x2 v.$spacing-x3;
+  width: 100%;
+  resize: vertical;
+  transition: 0.2s;
+
+  &::placeholder {
+    color: v.$grey-dark;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: v.$yellow;
+  }
+
+  &:hover {
+    outline: none;
+    border-color: v.$yellow;
+  }
+}

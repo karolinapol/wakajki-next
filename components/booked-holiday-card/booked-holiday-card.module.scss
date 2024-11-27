@@ -1,0 +1,64 @@
+@use "../../app/variables.module" as v;
+
+.bookedHolidayCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  p {
+    margin-bottom: v.$spacing-x2;
+  }
+
+  &__content {
+    margin-bottom: v.$spacing-x4;
+    border-radius: v.$spacing-x1;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    box-shadow: v.$shadow;
+
+    @media (min-width: v.$screen-md) {
+      flex-direction: row;
+    }
+  }
+
+  &__image {
+    flex: 2;
+    position: relative;
+
+    img {
+      position: static !important;
+      display: block;
+      border-radius: v.$spacing-x1 0 0 v.$spacing-x1;
+    }
+  }
+
+  &__data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+    padding: v.$spacing-x4;
+  }
+
+  &__info {
+    align-items: flex-start;
+  }
+
+  &__price {
+    align-self: flex-end;
+    text-align: right;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: v.$spacing-x2;
+  }
+
+  &__iconStar {
+    width: 20px;
+    height: 20px;
+    margin-right: v.$spacing-x1;
+  }
+}

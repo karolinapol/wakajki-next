@@ -1,0 +1,106 @@
+@use "../../app/variables.module" as v;
+@use "../../app/typography.module" as t;
+
+.plannedHolidayCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: v.$shadow;
+  margin-bottom: v.$spacing-x4;
+  border-radius: v.$spacing-x1;
+  padding: v.$spacing-x4;
+
+  .holidayDetails {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: v.$spacing-x4;
+
+    @media (min-width: v.$screen-md) {
+      flex-direction: row;
+    }
+
+    &__image {
+      flex: 2;
+      margin-bottom: v.$spacing-x4;
+
+      @media (min-width: v.$screen-md) {
+        margin-right: v.$spacing-x6;
+      }
+
+      img {
+        display: block;
+        position: static !important;
+      }
+    }
+
+    &__details {
+      flex: 1;
+    }
+
+    &__icon {
+      width: 20px;
+      height: 20px;
+      margin-right: v.$spacing-x2;
+    }
+  }
+
+  .mapContainer {
+    margin-bottom: v.$spacing-x4;
+
+    .map {
+      height: 40vh;
+    }
+
+    .attractionsButton {
+      display: block;
+      font-family: inherit;
+      font-weight: 700;
+      border-radius: 5px;
+      width: 100%;
+      transition: 0.2s;
+      cursor: pointer;
+      padding: v.$spacing-x2;
+      border: 2px solid v.$yellow;
+      color: v.$white;
+      background: v.$yellow;
+      width: 100%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: v.$spacing-x1;
+      font-size: t.$text-16;
+
+      &:hover {
+        background-color: v.$yellow-light;
+        border-color: v.$yellow-light;
+      }
+
+      @media (min-width: 500px) {
+        width: fit-content;
+        min-width: 250px;
+      }
+    }
+  }
+
+  .section {
+    margin-bottom: v.$spacing-x3;
+
+    &Description {
+      margin-bottom: v.$spacing-x10;
+    }
+
+    &HotelImage {
+      img {
+        position: static !important;
+        display: block;
+        border-radius: 0;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: v.$spacing-x4;
+  }
+}

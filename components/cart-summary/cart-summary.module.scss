@@ -1,0 +1,47 @@
+@use "../../app/variables.module.scss" as v;
+
+.cartSummary {
+  width: 100%;
+
+  @media (min-width: v.$screen-md) {
+    margin-left: v.$spacing-x4;
+  }
+
+  p {
+    margin-bottom: v.$spacing-x2;
+  }
+
+  &__content {
+    margin-bottom: v.$spacing-x4;
+  }
+
+  &__image {
+    margin-bottom: v.$spacing-x4;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: v.$spacing-x1;
+      position: static !important;
+    }
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: v.$spacing-x2;
+  }
+
+  &__payment {
+    p {
+      margin-bottom: v.$spacing-x1;
+    }
+  }
+
+  &__paymentMethod {
+    width: 50px;
+    height: 50px;
+    margin-right: v.$spacing-x2;
+  }
+}
