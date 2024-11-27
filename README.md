@@ -8,16 +8,16 @@ node.js
 
 ## Uruchamianie
 
-1.Inicjalizacja bazy danych:
-
-```
-node lib/initdb.ts
-```
-
-2.Instalacja zależności:
+1.Instalacja zależności:
 
 ```
 npm i --force
+```
+
+2.Inicjalizacja bazy danych:
+
+```
+node lib/initdb.ts
 ```
 
 3.Uruchamianie aplikacji:
