@@ -26,29 +26,8 @@ export const HomePage = async () => {
             </div>
             <div className={classes.descriptionBox}>
               <p>
-                Wszystko w jednym. Super apka umie to i to. <br></br> Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut
-                urna sed tellus laoreet venenatis. Proin imperdiet et mauris non
-                auctor. Nunc accumsan lorem varius, volutpat ex a, imperdiet
-                justo. Nulla venenatis mauris pharetra lacus egestas tristique.
-                Phasellus varius nibh lobortis iaculis rhoncus. Sed pulvinar sed
-                nulla non tempus. Aenean viverra ipsum in eros faucibus, eget
-                pellentesque est lobortis. Vestibulum ex velit, vulputate vel
-                quam sed, ultrices accumsan lacus. Ut in nunc elit. Fusce
-                vehicula justo nisi, eu consequat lorem placerat at. Curabitur
-                arcu nisi, gravida id sapien sit amet, posuere elementum enim.
-                Etiam pulvinar vitae leo in semper. Donec pharetra, purus eu
-                bibendum vehicula, libero est aliquam nulla, in ultricies quam
-                lectus vitae leo. Aenean sed commodo tortor, at dignissim nulla.
-                Curabitur eget quam non magna placerat finibus. Quisque sodales
-                cursus nisi, id varius leo ullamcorper feugiat. Phasellus
-                malesuada dapibus venenatis. Fusce viverra congue augue, sit
-                amet porta erat ultrices a. Donec lobortis ante dolor, feugiat
-                bibendum felis sagittis nec. Sed consequat diam in tortor
-                vehicula, a congue nisl porttitor. Proin accumsan nunc eget
-                gravida porta. Maecenas a dapibus est, et congue urna. Sed
-                dapibus egestas velit ac facilisis. Cras in magna blandit,
-                bibendum arcu et, dapibus ex. Nam.
+                Wakajki.pl to serwis podróżniczy, który zapewnia niezapomniane wakacje dopasowane do Twoich marzeń. Wyróżnia nas indywidualne podejście do klienta, szeroka oferta wyjątkowych destynacji na całym świecie oraz konkurencyjne ceny, dzięki którym luksusowy wypoczynek staje się dostępny dla każdego. Gwarantujemy najwyższą jakość usług, współpracujemy wyłącznie ze sprawdzonymi hotelami i organizatorami, a nasze doświadczenie oraz pasja do podróży pozwalają nam tworzyć perfekcyjnie zaplanowane wyjazdy. Niezależnie od tego, czy marzysz o rajskich plażach, ekscytujących city breakach, rodzinnych wakacjach czy pełnych przygód wyprawach, u nas znajdziesz idealną ofertę. Dbamy o komfort i bezpieczeństwo naszych klientów, zapewniamy pełne wsparcie na każdym etapie podróży oraz doradzamy najlepsze rozwiązania, aby Twój wyjazd był bezproblemowy 
+                i pełen niezapomnianych wrażeń. Wybierając Wakajki.pl, wybierasz profesjonalizm, pasję i najlepsze wakacje pod słońcem! 🌍✈️🏖️
               </p>
             </div>
           </div>
@@ -64,29 +43,10 @@ export const HomePage = async () => {
           <div className={classes.descriptionSectionRightAligned}>
             <div className={classes.descriptionBox}>
               <p>
-                Fajne wycieczki mamy do ornety i wałbyrzycha też. <br></br>{" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas ut urna sed tellus laoreet venenatis. Proin imperdiet
-                et mauris non auctor. Nunc accumsan lorem varius, volutpat ex a,
-                imperdiet justo. Nulla venenatis mauris pharetra lacus egestas
-                tristique. Phasellus varius nibh lobortis iaculis rhoncus. Sed
-                pulvinar sed nulla non tempus. Aenean viverra ipsum in eros
-                faucibus, eget pellentesque est lobortis. Vestibulum ex velit,
-                vulputate vel quam sed, ultrices accumsan lacus. Ut in nunc
-                elit. Fusce vehicula justo nisi, eu consequat lorem placerat at.
-                Curabitur arcu nisi, gravida id sapien sit amet, posuere
-                elementum enim. Etiam pulvinar vitae leo in semper. Donec
-                pharetra, purus eu bibendum vehicula, libero est aliquam nulla,
-                in ultricies quam lectus vitae leo. Aenean sed commodo tortor,
-                at dignissim nulla. Curabitur eget quam non magna placerat
-                finibus. Quisque sodales cursus nisi, id varius leo ullamcorper
-                feugiat. Phasellus malesuada dapibus venenatis. Fusce viverra
-                congue augue, sit amet porta erat ultrices a. Donec lobortis
-                ante dolor, feugiat bibendum felis sagittis nec. Sed consequat
-                diam in tortor vehicula, a congue nisl porttitor. Proin accumsan
-                nunc eget gravida porta. Maecenas a dapibus est, et congue urna.
-                Sed dapibus egestas velit ac facilisis. Cras in magna blandit,
-                bibendum arcu et, dapibus ex. Nam.
+                Wakajki.pl to nowoczesny system rezerwacji, który umożliwia szybkie, wygodne i bezpieczne rezerwowanie wyjazdów 
+                do najpopularniejszych destynacji na całym świecie, oferując szeroki wybór hoteli, pakietów wakacyjnych i opcji dodatkowych.
+                Cały proces rezerwacji odbywa się online, bez zbędnych formalności i ukrytych kosztów z możliwością elastycznych form płatności, 
+                rezerwacji last minute lub first minute oraz pełnym wsparciem naszego zespołu na każdym etapie organizacji wyjazdu, co gwarantuje bezpieczeństwo transakcji, przejrzystość warunków i najlepszą cenę na rynku.
               </p>
             </div>
             <div className={classes.titleBox}>
@@ -110,30 +70,9 @@ export const HomePage = async () => {
             </div>
             <div className={classes.descriptionBox}>
               <p>
-                Wybierz najtańszego wizzaiara albo rajanera jak się o swoje zęby
-                przy lądowaniu nie boisz XD. <br></br> Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Maecenas ut urna sed tellus
-                laoreet venenatis. Proin imperdiet et mauris non auctor. Nunc
-                accumsan lorem varius, volutpat ex a, imperdiet justo. Nulla
-                venenatis mauris pharetra lacus egestas tristique. Phasellus
-                varius nibh lobortis iaculis rhoncus. Sed pulvinar sed nulla non
-                tempus. Aenean viverra ipsum in eros faucibus, eget pellentesque
-                est lobortis. Vestibulum ex velit, vulputate vel quam sed,
-                ultrices accumsan lacus. Ut in nunc elit. Fusce vehicula justo
-                nisi, eu consequat lorem placerat at. Curabitur arcu nisi,
-                gravida id sapien sit amet, posuere elementum enim. Etiam
-                pulvinar vitae leo in semper. Donec pharetra, purus eu bibendum
-                vehicula, libero est aliquam nulla, in ultricies quam lectus
-                vitae leo. Aenean sed commodo tortor, at dignissim nulla.
-                Curabitur eget quam non magna placerat finibus. Quisque sodales
-                cursus nisi, id varius leo ullamcorper feugiat. Phasellus
-                malesuada dapibus venenatis. Fusce viverra congue augue, sit
-                amet porta erat ultrices a. Donec lobortis ante dolor, feugiat
-                bibendum felis sagittis nec. Sed consequat diam in tortor
-                vehicula, a congue nisl porttitor. Proin accumsan nunc eget
-                gravida porta. Maecenas a dapibus est, et congue urna. Sed
-                dapibus egestas velit ac facilisis. Cras in magna blandit,
-                bibendum arcu et, dapibus ex. Nam.
+                Z naszym planerem podróży zorganizujesz swoją wymarzoną wycieczkę, dostosowując każdy szczegół – od
+                wyboru idealnej destynacji, przez hotel, opcje wyżywienia, aż po atrakcje, które sprawią, że Twój wyjazd będzie wyjątkowy. 
+                Intuicyjny system pozwoli Ci w pełni kontrolować proces, zapewniając wygodę i elastyczność, by każda podróż była dokładnie taka, jak ją sobie wymarzyłeś.
               </p>
             </div>
           </div>
